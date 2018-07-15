@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+10_oo.py	../10_oo.py	1;"	kind:file	line:1
+11_os_and_sys.py	../11_os_and_sys.py	1;"	kind:file	line:1
+12.5_jspalindrome.py	../12.5_jspalindrome.py	1;"	kind:file	line:1
+12_checklink.py	../12_checklink.py	1;"	kind:file	line:1
+13_stack.py	../13_stack.py	1;"	kind:file	line:1
+1_hello.py	../1_hello.py	1;"	kind:file	line:1
+2_whoareyou.py	../2_whoareyou.py	1;"	kind:file	line:1
+3_countto10.py	../3_countto10.py	1;"	kind:file	line:1
+4.5_iseven.py	../4.5_iseven.py	1;"	kind:file	line:1
+4_ifhungry.py	../4_ifhungry.py	1;"	kind:file	line:1
+5_funcs.py	../5_funcs.py	1;"	kind:file	line:1
+6.5_somemultiplesof3and5under100.py	../6.5_somemultiplesof3and5under100.py	1;"	kind:file	line:1
+6_lists.py	../6_lists.py	1;"	kind:file	line:1
+7_funcsagain.py	../7_funcsagain.py	1;"	kind:file	line:1
+8.5_atbash.py	../8.5_atbash.py	1;"	kind:file	line:1
+8_dicts.py	../8_dicts.py	1;"	kind:file	line:1
+9.5_exceptions.py	../9.5_exceptions.py	1;"	kind:file	line:1
+9_files.py	../9_files.py	1;"	kind:file	line:1
