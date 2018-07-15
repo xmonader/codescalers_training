@@ -1,4 +1,4 @@
-# os chmod, chown, chroot, chrdir, mkdir, getcwd
+# os chmod, chown, chroot, chdir, mkdir, getcwd
 
 # os.path abspath, basename, dirname, exists, expanduser, isabs, isdir, isfile, islink, split, splitext
 

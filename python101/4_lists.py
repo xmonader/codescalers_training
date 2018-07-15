@@ -1,7 +1,10 @@
 # LISTS AND HOW TO USE
 
-# index, insert, append, iterate, reverse concatenate, sort
 
+ops = ["peter", "samir", "dina", "atef", "bishoy", "galal"]
+qa = ["ramez", "john", "dina", "islam" ]
+# index, insert, apend, iterate, reverse concatenate, sort
+ops.index("bishoy")
 
 
 
@@ -9,3 +12,7 @@
 
 
 # search for somone in the team
+
+val in container
+
+# convert to unique items (remove duplicates) using set { }

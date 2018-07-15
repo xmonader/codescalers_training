@@ -18,3 +18,24 @@
 
 ## strings.ascii_lowercase
 ## ord, chr -> ascii val 
+
+
+
+import string
+
+encoding_tbl = dict(zip(string.ascii_lowercase, string.ascii_lowercase[::-1]))
+decoding_tbl = dict((v,k) for k,v in encoding_tbl.items())
+
+def encrypt(s):
+    encoded_s = ""
+    for c in s:
+        encoded_s += encoding_tbl[c]
+    return encoded_s
+
+
+def decrypt(encoded_s):
+    s = ""
+    for c in encoded_s:
+        s += decoding_tbl[c]
+
+    return s
