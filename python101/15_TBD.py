@@ -1,3 +1,4 @@
+# day 1 tasks
 
 # implement access denied ap in 4 with getpass module to read passwords. (using for loop and if conditions.)
 
@@ -7,6 +8,14 @@
 # delete person, phone
 # add person
 # search by person or by phone.
+
+
+
+
+# day 2 tasks
+# grep 0
+# ls 0
+# cat 0
 
 
 # parse csv and extract the youngest and oldest using normal python and csv lib as extra.

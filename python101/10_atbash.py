@@ -20,22 +20,62 @@
 ## ord, chr -> ascii val 
 
 
-
-import string
-
-encoding_tbl = dict(zip(string.ascii_lowercase, string.ascii_lowercase[::-1]))
-decoding_tbl = dict((v,k) for k,v in encoding_tbl.items())
-
-def encrypt(s):
-    encoded_s = ""
-    for c in s:
-        encoded_s += encoding_tbl[c]
-    return encoded_s
+## step 1: hardway...
+# encoding_tbl = {}
+# encoding_tbl['a'] = 'z'
+# encoding_tbl['b'] = 'y'
 
 
-def decrypt(encoded_s):
-    s = ""
-    for c in encoded_s:
-        s += decoding_tbl[c]
+## step 1: with for loop
+keys =   "abcdefghijklmnopqrstuvwxyz" 
+values = "zyxwvutsrqponmlkjihgfedcba"
 
-    return s
+# for key in keys:
+#     # key = a
+#     keyindex = keys.index(key)
+#     value = values[keyindex] # z
+
+# encoding_tbl = dict(zip(keys,values))
+
+# def encrypt(s):
+#     encrypted_s = ""
+#     for c in s:
+#         encrypted_s += encoding_tbl[c]
+
+#     return encrypted_s
+
+
+
+# def decrypt(encrypted_s):
+#     s = ""
+#     for c in encrypted_s:
+#         s += decoding_tbl[c]
+#     return s
+
+
+
+
+
+
+
+
+# import string
+
+# encoding_tbl = dict(zip(string.ascii_lowercase, string.ascii_lowercase[::-1]))
+# decoding_tbl = dict((v,k) for k,v in encoding_tbl.items())
+
+
+
+# def encrypt(s):
+#     encoded_s = ""
+#     for c in s:
+#         encoded_s += encoding_tbl[c]
+#     return encoded_s
+
+
+# def decrypt(encoded_s):
+#     s = ""
+#     for c in encoded_s:
+#         s += decoding_tbl[c]
+
+#     return s
